@@ -13,7 +13,7 @@ W = 256 #width
 H = 192 #height
 R = 16  #radius
 
-# May be needed to be tuned per model
+# Might needed to be tuned per model
 Hidden = 16    # hidden layer size for the models
 epoch = 2000   # epoch counts
 Harmonics = 16 # for postional encoding
@@ -329,7 +329,7 @@ for epoch in range(epoch):
 
 
 # SIREN model reconstruction
-NeRF model construction used Huber loss, and Adam optimizer, why should not?
+SIREN model construction used Huber loss, and Adam optimizer, why should not?
 
 
 ```python
